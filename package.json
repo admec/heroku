@@ -4,8 +4,11 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js --exec babel-node --presets env",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "18.x"
   },
   "keywords": [],
   "author": "Ravi Bhadauria",
@@ -23,6 +26,7 @@
   },
   "devDependencies": {
     "@types/mongoose": "^5.2.17",
+    "dotenv": "^16.3.1",
     "jquery": "^3.3.1"
   }
 }
