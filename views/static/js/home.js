@@ -1,5 +1,4 @@
 $( document ).ready(function() {
-
     //on page load keep the user list populated------------START
     $.ajax({
         url: "users/list",
